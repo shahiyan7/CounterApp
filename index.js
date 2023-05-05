@@ -21,3 +21,8 @@ function save() {
   counte = 0;
   document.getElementById("count").innerHTML = counte;
 }
+function reset() {
+  counte = 0;
+  document.getElementById("count").innerHTML = counte;
+  document.getElementById("save-el").innerHTML = "Previous Entries: ";
+}

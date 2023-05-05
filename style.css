@@ -1,35 +1,40 @@
-body{
-    background-color: #F8EDE3;
-    text-align: center;
-    
+body {
+  background-color: #f8ede3;
+  text-align: center;
+  background-image: url("./image/station.jpeg");
 }
-h1,h2{
-    text-align: center;
-    color: red;
-    font-size: larger;
-    font-size: 2.5rem;
-    
+.bg {
 }
-#welcome-el{
-    font-size: 30px;
+h1,
+h2 {
+  text-align: center;
+  color: red;
+  font-size: larger;
+  font-size: 2.5rem;
 }
-#save-el{
-    font-size: 25px;
+#welcome-el {
+  font-size: 30px;
+  /* change text color */
+  color: red;
+}
+#save-el {
+  font-size: 25px;
+  color: red;
 }
 
-.btn-group button{
-    background-color: greenyellow;
-    border: 1px solid red;
-    padding: 10px 10px;
-    display: block;
-    color: red;
-    width: 200px;
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    margin-left: 38rem;
-    margin-bottom: 3rem;
+.btn-group button {
+  background-color: greenyellow;
+  border: 1px solid red;
+  padding: 10px 10px;
+  display: block;
+  color: red;
+  width: 200px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 38rem;
+  margin-bottom: 3rem;
 }
-button:hover{
-   background-color: black;
+button:hover {
+  background-color: black;
 }
